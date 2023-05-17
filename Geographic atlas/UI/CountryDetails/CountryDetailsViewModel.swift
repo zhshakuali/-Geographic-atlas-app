@@ -80,13 +80,7 @@ class CountryDetailItem {
         self.capitalCoordinates = countryDetail.capitalInfo?.formattedCoordinates()
         
        
-//        if (countryDetail.population != 0) && countryDetail.area > 1_000_000{
-//            self.population = "\(countryDetail.population / 1_000_000) mln"
-//            self.area = "\(countryDetail.area / 1_000_000) km²"
-//        } else {
-//            self.population = "\(countryDetail.population) mln"
-//            self.area = "\(countryDetail.area) km²"
-//        }
+
         
         
         if countryDetail.population > 1_000_000{

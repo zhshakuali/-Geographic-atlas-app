@@ -108,10 +108,7 @@ class CountryItemModel {
         self.country = country.name.common
         self.capital = country.capital?.first ?? ""
        
-//        self.population = String((country.population / 1_000_000)) + " mln"
-//
-//        self.area = String(country.area / 1_000_000) + " mln km²"
-//
+
         if country.population > 1000000 {
             self.population = String((country.population / 1_000_000)) + " mln"
         } else{
@@ -124,17 +121,7 @@ class CountryItemModel {
         }
         
         
-//        if countryDetail.population > 1_000_000{
-//            self.population = "\(countryDetail.population / 1_000_000) mln"
-//        } else {
-//            self.population = "\(countryDetail.population) mln"
-//        }
-//
-//        if countryDetail.area > 1_000_000{
-//            self.area = "\(countryDetail.area / 1_000_000) km²"
-//        } else {
-//            self.area = "\(countryDetail.area) km²"
-//        }
+
 
         self.countryCode = country.cca2
         self.currencies = country.currencies?.formattedCurrencies() ?? []
