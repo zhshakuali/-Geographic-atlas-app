@@ -7,23 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F107CE52A129DF70092E1BC /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F107CE42A129DF70092E1BC /* CountryDetail.swift */; };
+		9F107CE72A12A7C20092E1BC /* CountryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F107CE62A12A7C20092E1BC /* CountryDetailsViewModel.swift */; };
 		9FDFDFDA2A0E4265001EF267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFD92A0E4265001EF267 /* AppDelegate.swift */; };
 		9FDFDFDC2A0E4265001EF267 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFDB2A0E4265001EF267 /* SceneDelegate.swift */; };
-		9FDFDFDE2A0E4265001EF267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFDD2A0E4265001EF267 /* ViewController.swift */; };
-		9FDFDFE12A0E4265001EF267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDFDF2A0E4265001EF267 /* Main.storyboard */; };
+		9FDFDFDE2A0E4265001EF267 /* CountriesListСontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFDD2A0E4265001EF267 /* CountriesListСontroller.swift */; };
 		9FDFDFE32A0E4266001EF267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDFE22A0E4266001EF267 /* Assets.xcassets */; };
 		9FDFDFE62A0E4266001EF267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDFE42A0E4266001EF267 /* LaunchScreen.storyboard */; };
+		9FDFDFEE2A0E42C9001EF267 /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFED2A0E42C9001EF267 /* CountryDetailsViewController.swift */; };
+		9FDFDFF32A0EB9C4001EF267 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFF22A0EB9C4001EF267 /* Country.swift */; };
+		9FDFDFF62A0EBA5A001EF267 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFF52A0EBA5A001EF267 /* NetworkService.swift */; };
+		9FDFDFF82A0EC1FD001EF267 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFF72A0EC1FD001EF267 /* APIEndPoint.swift */; };
+		9FDFDFFA2A0EC3CF001EF267 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFDFF92A0EC3CF001EF267 /* NetworkRequest.swift */; };
+		D5C23EE52A137ACC0042C06C /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C23EE42A137ACC0042C06C /* UIViewController+Alert.swift */; };
+		D5EE58B12A0F7FB100EC9351 /* CountriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58B02A0F7FB100EC9351 /* CountriesListViewModel.swift */; };
+		D5EE58B42A0F814D00EC9351 /* CountryListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58B32A0F814D00EC9351 /* CountryListItemCell.swift */; };
+		D5EE58B72A0F822500EC9351 /* HeaderLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58B62A0F822500EC9351 /* HeaderLabelView.swift */; };
+		D5EE58B92A0F83B700EC9351 /* BulletTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58B82A0F83B700EC9351 /* BulletTextView.swift */; };
+		D5EE58BB2A0F86C300EC9351 /* TextLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58BA2A0F86C200EC9351 /* TextLabelView.swift */; };
+		D5EE58BE2A0FB7B300EC9351 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58BD2A0FB7B300EC9351 /* Colors.swift */; };
+		D5EE58C12A0FBA5300EC9351 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D5EE58C02A0FBA5300EC9351 /* Kingfisher */; };
+		D5EE58C32A0FBD2900EC9351 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE58C22A0FBD2900EC9351 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F107CE42A129DF70092E1BC /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
+		9F107CE62A12A7C20092E1BC /* CountryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewModel.swift; sourceTree = "<group>"; };
 		9FDFDFD62A0E4265001EF267 /* Geographic atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geographic atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDFDFD92A0E4265001EF267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FDFDFDB2A0E4265001EF267 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9FDFDFDD2A0E4265001EF267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9FDFDFE02A0E4265001EF267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FDFDFDD2A0E4265001EF267 /* CountriesListСontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountriesListСontroller.swift"; sourceTree = "<group>"; };
 		9FDFDFE22A0E4266001EF267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FDFDFE52A0E4266001EF267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FDFDFE72A0E4266001EF267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDFDFED2A0E42C9001EF267 /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
+		9FDFDFF22A0EB9C4001EF267 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		9FDFDFF52A0EBA5A001EF267 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9FDFDFF72A0EC1FD001EF267 /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		9FDFDFF92A0EC3CF001EF267 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D5C23EE42A137ACC0042C06C /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		D5EE58B02A0F7FB100EC9351 /* CountriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListViewModel.swift; sourceTree = "<group>"; };
+		D5EE58B32A0F814D00EC9351 /* CountryListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListItemCell.swift; sourceTree = "<group>"; };
+		D5EE58B62A0F822500EC9351 /* HeaderLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabelView.swift; sourceTree = "<group>"; };
+		D5EE58B82A0F83B700EC9351 /* BulletTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletTextView.swift; sourceTree = "<group>"; };
+		D5EE58BA2A0F86C200EC9351 /* TextLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabelView.swift; sourceTree = "<group>"; };
+		D5EE58BD2A0FB7B300EC9351 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D5EE58C22A0FBD2900EC9351 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EE58C12A0FBA5300EC9351 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,117 @@
 		9FDFDFD82A0E4265001EF267 /* Geographic atlas */ = {
 			isa = PBXGroup;
 			children = (
+				D5EE58BC2A0FB7A800EC9351 /* Extensions */,
+				D5EE58B52A0F81EC00EC9351 /* Utils */,
+				D5EE58AE2A0F7C0200EC9351 /* Logic */,
+				D5EE58AA2A0F782D00EC9351 /* Resources */,
+				D5EE58A92A0F781C00EC9351 /* AppDelegates */,
+				9FDFDFEF2A0E42D6001EF267 /* UI */,
+			);
+			path = "Geographic atlas";
+			sourceTree = "<group>";
+		};
+		9FDFDFEF2A0E42D6001EF267 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE58AC2A0F786000EC9351 /* CountryDetails */,
+				D5EE58AB2A0F785600EC9351 /* CountryList */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9FDFDFF12A0EB9AE001EF267 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFDFF22A0EB9C4001EF267 /* Country.swift */,
+				9F107CE42A129DF70092E1BC /* CountryDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FDFDFF42A0EBA42001EF267 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFDFF52A0EBA5A001EF267 /* NetworkService.swift */,
+				9FDFDFF72A0EC1FD001EF267 /* APIEndPoint.swift */,
+				9FDFDFF92A0EC3CF001EF267 /* NetworkRequest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5EE58A92A0F781C00EC9351 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
 				9FDFDFD92A0E4265001EF267 /* AppDelegate.swift */,
 				9FDFDFDB2A0E4265001EF267 /* SceneDelegate.swift */,
-				9FDFDFDD2A0E4265001EF267 /* ViewController.swift */,
-				9FDFDFDF2A0E4265001EF267 /* Main.storyboard */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		D5EE58AA2A0F782D00EC9351 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				9FDFDFE22A0E4266001EF267 /* Assets.xcassets */,
 				9FDFDFE42A0E4266001EF267 /* LaunchScreen.storyboard */,
 				9FDFDFE72A0E4266001EF267 /* Info.plist */,
 			);
-			path = "Geographic atlas";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5EE58AB2A0F785600EC9351 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE58B22A0F813700EC9351 /* Cell */,
+				9FDFDFDD2A0E4265001EF267 /* CountriesListСontroller.swift */,
+				D5EE58B02A0F7FB100EC9351 /* CountriesListViewModel.swift */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		D5EE58AC2A0F786000EC9351 /* CountryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFDFED2A0E42C9001EF267 /* CountryDetailsViewController.swift */,
+				9F107CE62A12A7C20092E1BC /* CountryDetailsViewModel.swift */,
+			);
+			path = CountryDetails;
+			sourceTree = "<group>";
+		};
+		D5EE58AE2A0F7C0200EC9351 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFDFF42A0EBA42001EF267 /* Services */,
+				9FDFDFF12A0EB9AE001EF267 /* Model */,
+				D5EE58C22A0FBD2900EC9351 /* AppError.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		D5EE58B22A0F813700EC9351 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE58B32A0F814D00EC9351 /* CountryListItemCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D5EE58B52A0F81EC00EC9351 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE58B62A0F822500EC9351 /* HeaderLabelView.swift */,
+				D5EE58B82A0F83B700EC9351 /* BulletTextView.swift */,
+				D5EE58BA2A0F86C200EC9351 /* TextLabelView.swift */,
+				D5C23EE42A137ACC0042C06C /* UIViewController+Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D5EE58BC2A0FB7A800EC9351 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE58BD2A0FB7B300EC9351 /* Colors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +215,9 @@
 			dependencies = (
 			);
 			name = "Geographic atlas";
+			packageProductDependencies = (
+				D5EE58C02A0FBA5300EC9351 /* Kingfisher */,
+			);
 			productName = "Geographic atlas";
 			productReference = 9FDFDFD62A0E4265001EF267 /* Geographic atlas.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +246,9 @@
 				Base,
 			);
 			mainGroup = 9FDFDFCD2A0E4265001EF267;
+			packageReferences = (
+				D5EE58BF2A0FBA5300EC9351 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9FDFDFD72A0E4265001EF267 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +265,6 @@
 			files = (
 				9FDFDFE62A0E4266001EF267 /* LaunchScreen.storyboard in Resources */,
 				9FDFDFE32A0E4266001EF267 /* Assets.xcassets in Resources */,
-				9FDFDFE12A0E4265001EF267 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +275,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDFDFDE2A0E4265001EF267 /* ViewController.swift in Sources */,
+				9FDFDFF32A0EB9C4001EF267 /* Country.swift in Sources */,
+				9FDFDFDE2A0E4265001EF267 /* CountriesListСontroller.swift in Sources */,
+				D5EE58C32A0FBD2900EC9351 /* AppError.swift in Sources */,
+				9FDFDFFA2A0EC3CF001EF267 /* NetworkRequest.swift in Sources */,
+				D5EE58BE2A0FB7B300EC9351 /* Colors.swift in Sources */,
+				9F107CE52A129DF70092E1BC /* CountryDetail.swift in Sources */,
+				9F107CE72A12A7C20092E1BC /* CountryDetailsViewModel.swift in Sources */,
+				D5EE58B92A0F83B700EC9351 /* BulletTextView.swift in Sources */,
+				D5EE58B42A0F814D00EC9351 /* CountryListItemCell.swift in Sources */,
+				D5C23EE52A137ACC0042C06C /* UIViewController+Alert.swift in Sources */,
 				9FDFDFDA2A0E4265001EF267 /* AppDelegate.swift in Sources */,
+				D5EE58B12A0F7FB100EC9351 /* CountriesListViewModel.swift in Sources */,
+				9FDFDFEE2A0E42C9001EF267 /* CountryDetailsViewController.swift in Sources */,
 				9FDFDFDC2A0E4265001EF267 /* SceneDelegate.swift in Sources */,
+				D5EE58BB2A0F86C300EC9351 /* TextLabelView.swift in Sources */,
+				9FDFDFF62A0EBA5A001EF267 /* NetworkService.swift in Sources */,
+				D5EE58B72A0F822500EC9351 /* HeaderLabelView.swift in Sources */,
+				9FDFDFF82A0EC1FD001EF267 /* APIEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9FDFDFDF2A0E4265001EF267 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FDFDFE02A0E4265001EF267 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9FDFDFE42A0E4266001EF267 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +433,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6AZ6TUHC7X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Geographic atlas/Info.plist";
+				INFOPLIST_FILE = "Geographic atlas/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +460,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6AZ6TUHC7X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Geographic atlas/Info.plist";
+				INFOPLIST_FILE = "Geographic atlas/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5EE58BF2A0FBA5300EC9351 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5EE58C02A0FBA5300EC9351 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5EE58BF2A0FBA5300EC9351 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FDFDFCE2A0E4265001EF267 /* Project object */;
 }
