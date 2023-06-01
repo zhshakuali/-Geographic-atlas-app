@@ -1,8 +1,5 @@
 # -Geographic-atlas-app
-"Geographic atlas" app for STRONG team
-To get bonus points and increase your chances, the following optional tasks can be implemented:
-
-Only one of these bonuses will be applied:
+"Geographic atlas" app
 
 Use only software Autolayout (or Autolayout + Snapkit) - 3 points. +✔️
 
